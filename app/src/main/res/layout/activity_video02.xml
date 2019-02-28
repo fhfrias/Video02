@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00fff7"
+    tools:context=".Video01">
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REPRODUCIENDO VIDEO"
+        android:textColor="#ff00"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3px"/>
+
+    <TextView
+        android:id="@+id/txt_ficherovideo"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FICHERO DE VIDEO"
+        android:textStyle="bold"
+        android:textColor="#ff00"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3px"/>
+
+    <VideoView
+        android:layout_gravity="center"
+        android:id="@+id/videoView"
+        android:layout_width="640px"
+        android:layout_height="520px"
+        android:layout_margin="4dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3px"/>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3px"/>
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CLASE VIDEOVIEW"
+        android:textColor="#ff00"
+        android:textSize="20dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3px"/>
+
+</LinearLayout>
